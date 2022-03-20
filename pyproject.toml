@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "flask-web-calendar"
+version = "0.1.0"
+description = ""
+authors = ["goncharoman <goncharoman@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Flask = "^2.0.3"
+Flask-SQLAlchemy = "^2.5.1"
+marshmallow = "^3.15.0"
+webargs = "^8.1.0"
+uWSGI = "^2.0.20"
+apispec-webframeworks = "^0.5.2"
+apispec = "^5.1.1"
+flask-swagger-ui = "^3.36.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.0"
+pylint = "^2.12.2"
+isort = "^5.10.1"
+autopep8 = "^1.6.0"
+coverage = "^6.3.2"
+pylint-flask = "^0.6"
+pylint-flask-sqlalchemy = "^0.2.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
